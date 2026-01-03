@@ -1,3 +1,3 @@
-email,name
-john@example.com,John Doe
-jane@example.com,Jane Doe
+email,name,ssn,dob
+john@example.com,John Doe,***-**-1111,XX/XX/1990
+jane@example.com,Jane Doe,***-**-2222,XX/XX/1985
