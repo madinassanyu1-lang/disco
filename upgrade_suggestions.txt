@@ -1,0 +1,11 @@
+Recurring issue: 'It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.' seen 3 times; consider increasing wait time, verifying selectors, or toggling pacing.
+Recurring issue: 'It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.' seen 4 times; consider increasing wait time, verifying selectors, or toggling pacing.
+Recurring issue: 'It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.' seen 5 times; consider increasing wait time, verifying selectors, or toggling pacing.
+Recurring issue: 'It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.' seen 6 times; consider increasing wait time, verifying selectors, or toggling pacing.
+Recurring issue: 'It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.' seen 7 times; consider increasing wait time, verifying selectors, or toggling pacing.
+Recurring issue: 'Timeout while waiting for spinner' seen 3 times; consider increasing wait time, verifying selectors, or toggling pacing.
