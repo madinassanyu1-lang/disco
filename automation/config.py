@@ -20,4 +20,10 @@ CONFIG = {
 
     # Proxy health endpoint (authorized infra only)
     "PROXY_HEALTH_TEST_URL": os.environ.get("PROXY_HEALTH_TEST_URL", "https://httpbin.org/ip"),
+
+    # Alerts
+    "ENABLE_ALERTS": os.environ.get("ENABLE_ALERTS", "false").lower() == "true",
+    "SLACK_WEBHOOK_URL": os.environ.get("SLACK_WEBHOOK_URL"),
+    "PAGERDUTY_ROUTING_KEY": os.environ.get("PAGERDUTY_ROUTING_KEY"),
+    "NOTIFIER_MAX_RETRIES": int(os.environ.get("NOTIFIER_MAX_RETRIES", 3)),
 }
