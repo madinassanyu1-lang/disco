@@ -25,6 +25,12 @@ Refer to `automation/` for module details.
 - Abort on CAPTCHA or bot detection—do not attempt bypass.
 - Rotate proxies and validate health before use.
 
+## Alerts & notifications 🔔
+- Alerts are disabled by default. Enable with `ENABLE_ALERTS=true`.
+- Slack webhook: set `SLACK_WEBHOOK_URL` (recommended to store in secrets).
+- PagerDuty: set `PAGERDUTY_ROUTING_KEY` for Events API v2 if you want urgent incidents.
+- Alerts are non-blocking and best-effort; retries have a small cap and backoff.
+
 ## CLI options
 - `python run.py <input_path>` — default behavior: one session per record (configurable via `SESSION_PER_RECORD` in environment).
 
